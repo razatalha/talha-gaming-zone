@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Talha Gaming Zone</title>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <h1>🎮 Talha Gaming Zone</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#setup">Setup</a>
+    <a href="#games">Games</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#tournaments">Tournaments</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<section id="home" class="hero reveal">
+  <h2>Pakistan’s Ultimate Gaming Zone</h2>
+  <p>Dark Theme • High FPS • Competitive Gaming</p>
+  <div class="stats">
+    <div><span id="pc">0</span><p>Gaming PCs</p></div>
+    <div><span id="gamesCount">0</span><p>Games</p></div>
+    <div><span id="players">0</span><p>Gamers</p></div>
+  </div>
+</section>
+
+<section id="about" class="reveal">
+  <h2>About Us</h2>
+  <p>Talha Gaming Zone is a professional gaming lounge located in North Nazimabad. High-end PCs, tournaments & pro esports environment.</p>
+</section>
+
+<section id="setup" class="dark reveal">
+  <h2>Our Setup</h2>
+  <div class="grid">
+    <div class="card">RTX GPUs</div>
+    <div class="card">165Hz Monitors</div>
+    <div class="card">RGB Keyboards</div>
+    <div class="card">Gaming Chairs</div>
+    <div class="card">High Speed Internet</div>
+    <div class="card">Power Backup</div>
+  </div>
+</section>
+
+<section id="games" class="reveal">
+  <h2>Top Games</h2>
+  <div class="grid">
+    <div class="card">GTA V</div>
+    <div class="card">PUBG</div>
+    <div class="card">Valorant</div>
+    <div class="card">CS:GO</div>
+    <div class="card">FIFA</div>
+    <div class="card">Fortnite</div>
+    <div class="card">Call of Duty</div>
+    <div class="card">NFS</div>
+  </div>
+</section>
+
+<section id="pricing" class="dark reveal">
+  <h2>Pricing</h2>
+  <div class="price-box">
+    <h3>Rs. 80 / Hour</h3>
+  </div>
+</section>
+
+<section id="tournaments" class="reveal">
+  <h2>Gaming Tournaments</h2>
+  <p>Weekly competitions, prizes & leaderboards</p>
+  <form onsubmit="return registerTournament()">
+    <input type="text" id="player" placeholder="Player Name">
+    <select id="game">
+      <option>Valorant</option>
+      <option>PUBG</option>
+      <option>CS:GO</option>
+      <option>FIFA</option>
+    </select>
+    <button>Register</button>
+  </form>
+</section>
+
+<section id="reviews" class="dark reveal">
+  <h2>Player Reviews</h2>
+  <p>⭐⭐⭐⭐⭐ Best gaming zone in Nazimabad</p>
+  <p>⭐⭐⭐⭐⭐ Smooth gameplay & environment</p>
+</section>
+
+<section id="contact" class="reveal">
+  <h2>Contact Us</h2>
+  <p>📍 North Nazimabad</p>
+  <p>📞 0331-2887065</p>
+  <p>📧 razatalha717@gmail.com</p>
+  <iframe
+    src="https://maps.google.com/maps?q=North%20Nazimabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+    width="100%" height="300"></iframe>
+  <br><br>
+  <a href="https://wa.me/923312887065" target="_blank">
+    <button>📲 Book on WhatsApp</button>
+  </a>
+</section>
+
+<footer>
+  <p>© 2025 Talha Gaming Zone</p>
+</footer>
+
+<script src="../js/counters.js"></script>
+<script src="../js/scroll.js"></script>
+<script src="../js/tournament.js"></script>
+</body>
+</html>
+
